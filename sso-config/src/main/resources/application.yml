@@ -1,0 +1,15 @@
+logging:
+  file: "logs/sso-config.log"
+info:
+  name : "Config Center"
+
+---
+server:
+  port: 8888
+  context-path: /config
+spring:
+  profiles:
+    active:
+      - native
+  application:
+    name: sso-config

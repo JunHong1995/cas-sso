@@ -54,6 +54,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.4.RELEASE</version>
             </plugin>
         </plugins>
     </build>
@@ -77,14 +78,4 @@
             <url>http://repository.jboss.org/nexus/content/groups/public/</url>
         </repository>
     </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <id>maven2-release</id>
-            <url>http://uk.maven.org/maven2/</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
