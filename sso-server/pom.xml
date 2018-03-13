@@ -24,6 +24,11 @@
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-rest-authentication</artifactId>
+            <version>${cas.version}</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
